@@ -13,32 +13,19 @@
         android:theme="@style/Theme.WildLifeDetectProgram"
         tools:targetApi="31">
         <activity
-            android:name=".ProtectYourSelfActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:name=".ProtectYourSelfActivity">
         </activity>
         <activity
-            android:name=".RememberActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:name=".RememberActivity">
         </activity>
         <activity
-            android:name=".UltraSoundActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
+            android:name=".UltraSoundActivity">
         </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
