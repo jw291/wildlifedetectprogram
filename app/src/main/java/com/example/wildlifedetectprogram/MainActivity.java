@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         btn_remember.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                SoundManager.getInstance().PlaySound(getApplicationContext(),1);
+
                 Intent intent = new Intent(getApplicationContext(), RememberActivity.class);
                 startActivity(intent);
             }
